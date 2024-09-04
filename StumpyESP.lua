@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/miroeramaa/TurtleLib/main/TurtleUiLib.lua"))()
-local w = library:Window("ST ESP, made by Vapixed")
+local w = library:Window("OPP ESP, by VaxyPoo")
 local highlight = Instance.new("Highlight")
 highlight.Name = "ESP"
 getgenv().esp = false
@@ -39,7 +39,7 @@ w:Toggle("Toggle", false, function(bool)
 end)
 
 -- Add label and button
-w:Label("https://discord.gg/YkMeP9nPHa", Color3.fromRGB(127, 143, 166))
+w:Label("Tbh opps are annoying", Color3.fromRGB(127, 143, 166))
 w:Button("Destroy Gui", function()
     -- Set esp to false and destroy the library UI
     esp = false
