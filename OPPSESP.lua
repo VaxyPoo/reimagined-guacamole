@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/miroeramaa/TurtleLib/main/TurtleUiLib.lua"))()
-local w = library:Window("OPP ESP, by VaxyPoo")
+local w = library:Window("SOCCULET ESP")
 local highlight = Instance.new("Highlight")
 highlight.Name = "ESP"
 getgenv().esp = false
